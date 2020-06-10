@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <div><App name="Muhammad HASSAN" age="20"/></div>,
+  //giving properties
+  <div><App name="Muhammad HASSAN" age={20}/></div>,
   //react convert html into js thats why react is love
 //  React.createElement('div',null,React.createElement('span',null,'hell is this ')),
   document.getElementById('root')
