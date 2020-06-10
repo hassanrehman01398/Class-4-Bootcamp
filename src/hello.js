@@ -1,21 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-import Hello from './hello';
+import './hello.css'
 // const hello=(name) => "Hello world";
 // function hello1(name){
 
 //   return "helloworld";
 // }
-function App(name) {
-  let {name1,age}=name;
-  //hello1(name);
-  //hello(name);
-  return <div>
-    Hello from Hassan {name1} age:{age-4} 
-   <Hello></Hello>
-    </div>  
+function hello(first_name) {
+//   let {name1,age}=name;
+//   hello1(name);
+//   hello(name);
+return <p className="myname">A para in hello.js </p>  
   //(
     // <div className="App"> 
     //   <header className="App-header">
@@ -36,4 +30,4 @@ function App(name) {
  // );
 }
 
-export default App;
+export default hello;
