@@ -2,19 +2,29 @@ import React from 'react';
 import './App.css';
 
 import Hello from './hello';
+import Room from './room';
 // const hello=(name) => "Hello world";
 // function hello1(name){
 
 //   return "helloworld";
 // }
-function App(name) {
-  let {name1,age}=name;
-  //hello1(name);
-  //hello(name);
-  return <div>
-    Hello from Hassan {name1} age:{age-4} 
-   <Hello></Hello>
-    </div>  
+function App() {
+  return(
+<div>
+
+  <Room></Room>
+</div>
+
+  );
+ // return(
+
+  // let {name1,age}=name;
+  // //hello1(name);
+  // //hello(name);
+  // return <div>
+  //   Hello from Hassan {name1} age:{age-4} 
+  //  <Hello></Hello>
+  //   </div>  
   //(
     // <div className="App"> 
     //   <header className="App-header">
@@ -32,7 +42,7 @@ function App(name) {
     //     </a>
     //   </header>
     // </div>
- // );
+  //);
 }
 
 export default App;
